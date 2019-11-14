@@ -5,13 +5,18 @@ semver is a [Semantic Versioning](http://semver.org/) library written in golang.
 
 Usage
 -----
+
 ```bash
-$ go get github.com/gyuho/semver
+go get -v github.com/gyuho/semver
 ```
+
 Note: Always vendor your dependencies or fix on a specific version tag.
 
 ```go
-import github.com/gyuho/semver
+import (
+    semver "github.com/gyuho/semver/v3"
+)
+
 v1, err := semver.Make("1.0.0-beta")
 v2, err := semver.Make("2.0.0-beta")
 v1.Compare(v2)
