@@ -1,4 +1,4 @@
-semver for golang [![Build Status](https://travis-ci.org/gyuho/semver.svg?branch=master)](https://travis-ci.org/gyuho/semver) [![GoDoc](https://godoc.org/github.com/gyuho/semver?status.svg)](https://godoc.org/github.com/gyuho/semver) [![Coverage Status](https://img.shields.io/coveralls/gyuho/semver.svg)](https://coveralls.io/r/gyuho/semver?branch=master) [![Go Report Card](https://goreportcard.com/badge/github.com/gyuho/semver)](https://goreportcard.com/report/github.com/gyuho/semver)
+semver for golang [![Build Status](https://travis-ci.org/gyuho/semver.svg?branch=master)](https://travis-ci.org/gyuho/semver) [![GoDoc](https://godoc.org/github.com/gyuho/semver?status.svg)](https://godoc.org/github.com/gyuho/semver) [![Go Report Card](https://goreportcard.com/badge/github.com/gyuho/semver)](https://goreportcard.com/report/github.com/gyuho/semver)
 ======
 
 semver is a [Semantic Versioning](http://semver.org/) library written in golang. It fully covers spec version `2.0.0`.
